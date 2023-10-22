@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyProvider extends ChangeNotifier {
-  int index = 2;
+  int index = 0;
 
   bottomNavCurrent(value) {
     index = value;
